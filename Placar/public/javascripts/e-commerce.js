@@ -266,6 +266,104 @@ window.onload = function()
     }
   });
 
+  $("[name=MD1-19] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-19]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-19]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-19]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-19]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-20] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-20]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-20]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-20]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-20]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-21] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-21]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-21]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-21]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-21]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-22] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-22]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-22]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-22]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-22]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-23] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-23]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-23]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-23]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-23]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-24] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-24]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-24]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-24]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-24]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD1-25] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD1-25]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD1-25]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD1-25]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD1-25]').attr('src', "image/Circulo.png");
+    }
+  });
+
   $("[name=MD2-1] a").on('click', function(e) {
     e.preventDefault(); // cancel the link behaviour
     var selText = $(this).text();
@@ -513,6 +611,104 @@ window.onload = function()
       $('[name=imgMD2-18]').attr('src', "image/Andamento.png");
     } else if(selText == 'Próximos'){
       $('[name=imgMD2-18]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-19] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-19]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-19]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-19]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-19]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-20] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-20]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-20]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-20]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-20]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-21] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-21]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-21]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-21]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-21]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-22] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-22]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-22]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-22]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-22]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-23] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-23]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-23]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-23]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-23]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-24] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-24]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-24]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-24]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-24]').attr('src', "image/Circulo.png");
+    }
+  });
+
+  $("[name=MD2-25] a").on('click', function(e) {
+    e.preventDefault(); // cancel the link behaviour
+    var selText = $(this).text();
+    if (selText == 'Cumpriu'){
+      $('[name=imgMD2-25]').attr('src', "image/Feito.png");
+    } else if(selText == 'Não cumpriu'){
+      $('[name=imgMD2-25]').attr('src', "image/Nao_feito.png");
+    } else if(selText == 'Em andamento'){
+      $('[name=imgMD2-25]').attr('src', "image/Andamento.png");
+    } else if(selText == 'Próximos'){
+      $('[name=imgMD2-25]').attr('src', "image/Circulo.png");
     }
   });
 }

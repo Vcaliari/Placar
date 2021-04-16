@@ -19,11 +19,25 @@ var testeMD1_15 = [{}];
 var testeMD1_16 = [{}];
 var testeMD1_17 = [{}];
 var testeMD1_18 = [{}];
+var testeMD1_19 = [{}];
+var testeMD1_20 = [{}];
+var testeMD1_21 = [{}];
+var testeMD1_22 = [{}];
+var testeMD1_23 = [{}];
+var testeMD1_24 = [{}];
+var testeMD1_25 = [{}];
 var testeMD2_14 = [{}];
 var testeMD2_15 = [{}];
 var testeMD2_16 = [{}];
 var testeMD2_17 = [{}];
 var testeMD2_18 = [{}];
+var testeMD2_19 = [{}];
+var testeMD2_20 = [{}];
+var testeMD2_21 = [{}];
+var testeMD2_22 = [{}];
+var testeMD2_23 = [{}];
+var testeMD2_24 = [{}];
+var testeMD2_25 = [{}];
 
 router.use(express.static(__dirname, + '/public'));
 
@@ -56,7 +70,21 @@ router.get('/', function(req, res, next) {
       imageMD2_16: resultMCI[7].caminho,
       imageMD2_17: resultMCI[8].caminho,
       imageMD2_18: resultMCI[9].caminho,
-      imageMCI: resultMCI[10].caminho
+      imageMCI: resultMCI[10].caminho,
+      imageMD1_19: resultMCI[11].caminho,
+      imageMD1_20: resultMCI[12].caminho,
+      imageMD1_21: resultMCI[13].caminho,
+      imageMD1_22: resultMCI[14].caminho,
+      imageMD1_23: resultMCI[15].caminho,
+      imageMD1_24: resultMCI[16].caminho,
+      imageMD1_25: resultMCI[17].caminho,
+      imageMD2_19: resultMCI[18].caminho,
+      imageMD2_20: resultMCI[19].caminho,
+      imageMD2_21: resultMCI[20].caminho,
+      imageMD2_22: resultMCI[21].caminho,
+      imageMD2_23: resultMCI[22].caminho,
+      imageMD2_24: resultMCI[23].caminho,
+      imageMD2_25: resultMCI[24].caminho
     }];
     res.render('index', { imagens: teste});
   });
@@ -167,16 +195,16 @@ router.post('/', function(request, response){
 
   var md1 = request.body.md1;
   if (md1.toUpperCase() == 'SIM'){
-    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Feito.png" WHERE ID = "imgMD1-18"');
+    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Feito.png" WHERE ID = "imgMD1-15"');
   }else if (md1.toUpperCase() == 'NÃO'){
-    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Nao_feito.png" WHERE ID = "imgMD1-18"');
+    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Nao_feito.png" WHERE ID = "imgMD1-15"');
   }
 
   var md2 = request.body.md2;
   if (md2.toUpperCase() == 'SIM'){
-    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Feito.png" WHERE ID = "imgMD2-18"');
+    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Feito.png" WHERE ID = "imgMD2-15"');
   }else if (md2.toUpperCase() == 'NÃO' || md2.toUpperCase() == 'NAO'){
-    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Nao_feito.png" WHERE ID = "imgMD2-18"');
+    sequelize.query('UPDATE PLACAR SET CAMINHO = "image/Nao_feito.png" WHERE ID = "imgMD2-15"');
   }
 
 });
